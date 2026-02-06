@@ -7,10 +7,10 @@ class BotaoMenu extends StatelessWidget {
   final Color cor;
   final VoidCallback onPressed;
 
-  const BotaoMenu({
+  const BotaoMenu({super.key, 
     required this.titulo,
     required this.icone,
-    required this.cor,
+    this.cor = const Color.fromARGB(255, 67, 155, 70),
     required this.onPressed,
   });
 
@@ -20,7 +20,7 @@ class BotaoMenu extends StatelessWidget {
       width: double.infinity,
       height: 80,
       child: Material(
-        color: cor.withOpacity(0.1),
+        color: cor.withValues(alpha: .1),
         borderRadius: BorderRadius.circular(12),
         child: InkWell(
           onTap: onPressed,

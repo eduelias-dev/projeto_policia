@@ -48,25 +48,21 @@ class MenuPage extends StatelessWidget {
             BotaoMenu(
               titulo: 'Ocorrências',
               icone: Icons.description,
-              cor: Colors.blue,
               onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => const MainPage())),
             ),
             BotaoMenu(
               titulo: 'Tela 2',
               icone: Icons.people,
-              cor: Colors.green,
               onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => const Tela2())),
             ),
             BotaoMenu(
               titulo: 'Tela 3',
               icone: Icons.settings,
-              cor: Colors.orange,
               onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => const Tela3())),
             ),
             BotaoMenu(
               titulo: 'Tela 4',
               icone: Icons.info,
-              cor: Colors.purple,
               onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => const Tela4())),
             ),
           ],
