@@ -1,16 +1,50 @@
-# projeto_policia
+# 📱 Ocorrências Remotas
 
-A new Flutter project.
+MVP de um aplicativo Flutter para registro de ocorrências offline.
 
-## Getting Started
+## 🚀 Tecnologias
 
-This project is a starting point for a Flutter application.
+- Flutter + Dart
+- Flutter BLoC (Cubit)
+- SQLite (sqflite)
+- Material Design 3
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Funcionalidades
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- ✅ Registro de ocorrências offline
+- ✅ Persistência em SQLite
+- ✅ Menu de navegação com 4 abas
+- ✅ Validação de dados
+- ✅ Interface intuitiva
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Como Executar
+
+```bash
+# Instale as dependências
+flutter pub get
+
+# Execute o aplicativo
+flutter run
+```
+
+## 📁 Estrutura
+
+```
+lib/
+├── pages/          # Telas do app
+├── cubit/          # Gerenciamento de estado
+├── database/       # SQLite
+├── models/         # Modelos de dados
+└── components/     # Widgets reutilizáveis
+```
+
+## 🎓 Padrões Utilizados
+
+- BLoC Pattern (Cubit)
+- Clean Architecture
+- Singleton Pattern
+- SOLID Principles
+
+---
+
+**Status:** Em desenvolvimento 🚧
